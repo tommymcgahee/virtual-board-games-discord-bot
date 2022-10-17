@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nodejs:
+    build: . 
+    container_name: virtualboardgamesdiscordbot
+    environment:
+      - NODE_ENV=production

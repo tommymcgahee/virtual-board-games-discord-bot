@@ -1,0 +1,27 @@
+{
+  "name": "virtualboardgamesdiscordbot",
+  "version": "1.0.0",
+  "description": "The virtual board games discord bot automates the beginning of a virtual board game by notifying players who their fellow team members are. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "development": "nodemon index.js",
+    "production": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommymcgahee/virtual-board-games-discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommymcgahee/virtual-board-games-discord-bot/issues"
+  },
+  "homepage": "https://github.com/tommymcgahee/virtual-board-games-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "eslint": "^7.2.0",
+    "nodemon": "^2.0.20"
+  }
+}

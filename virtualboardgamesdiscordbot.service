@@ -1,0 +1,14 @@
+[Unit]
+Description=VirtualBoardGamesDiscordBot - Discord bot to automate the beginning of a virtual board game
+Documentation=https://github.com/tommymcgahee/virtual-board-games-discord-bot
+After=network.target
+
+[Service]
+Type=simple
+User=virtualboardgamesdiscordbot
+WorkingDirectory=/opt/bots/virtualboardgamesdiscordbot
+ExecStart=/usr/bin/node /opt/bots/virtualboardgamesdiscordbot/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
